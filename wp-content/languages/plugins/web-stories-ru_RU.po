@@ -1,0 +1,458 @@
+# Translation of Plugins - Web Stories - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Web Stories - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-22 16:58:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Web Stories - Stable (latest release)\n"
+
+#. translators: Date format, see
+#. https://www.php.net/manual/en/datetime.format.php
+#: includes/Locale.php:49
+msgid "g:i a"
+msgstr "g:i a"
+
+#: includes/Integrations/Site_Kit.php:184
+#: includes/Integrations/Site_Kit.php:185
+msgid "https://wordpress.org/plugins/google-site-kit/"
+msgstr "https://wordpress.org/plugins/google-site-kit/"
+
+#: includes/Integrations/Site_Kit.php:219
+msgid "Site Kit by Google"
+msgstr "Site Kit от Google"
+
+#. translators: Date format, see
+#. https://www.php.net/manual/en/datetime.format.php
+#: includes/Locale.php:46 assets/js/chunk-getStoryPropsToSave.js:140
+#: assets/js/wp-story-editor.js:136
+msgid "d/m/Y"
+msgstr "d/m/Y"
+
+#: includes/Traits/Layout.php:47 assets/js/chunk-getStoryPropsToSave.js:188
+#: assets/js/web-stories-block.js:17 assets/js/wp-story-editor.js:184
+msgid "List"
+msgstr "Список"
+
+#: includes/Admin/Dashboard.php:187 includes/Admin/Dashboard.php:188
+#: includes/Admin/PluginActionLinks.php:79 assets/js/wp-dashboard.js:1
+#: assets/js/wp-dashboard.js:29 assets/js/wp-dashboard.js:154
+msgid "Settings"
+msgstr "Настройки"
+
+#. Plugin Name of the plugin
+#: includes/Admin/Customizer.php:132 includes/Admin/Site_Health.php:122
+#: includes/Renderer/Stories/Carousel_Renderer.php:142
+#: includes/templates/admin/dashboard.php:35
+#: includes/templates/admin/dashboard.php:42
+#: includes/templates/admin/edit-story.php:161
+#: includes/templates/admin/edit-story.php:172 includes/Widgets/Stories.php:74
+#: includes/Widgets/Stories.php:430 assets/js/tinymce-button.js:1
+#: assets/js/web-stories-block.js:17 assets/js/web-stories-block.js:21
+#: assets/js/wp-dashboard.js:154
+msgid "Web Stories"
+msgstr "Web Stories"
+
+#. Author of the plugin
+msgid "Google"
+msgstr "Google"
+
+#: includes/Block/Web_Stories_Block.php:108 includes/Embed_Base.php:169
+msgid "Web Story"
+msgstr "Web Story"
+
+#. Plugin URI of the plugin
+msgid "https://wp.stories.google/"
+msgstr "https://wp.stories.google/"
+
+#. Author URI of the plugin
+msgid "https://opensource.google.com/"
+msgstr "https://opensource.google.com/"
+
+#: includes/REST_API/Embed_Controller.php:101
+#: includes/REST_API/Embed_Controller.php:155
+#: includes/REST_API/Hotlinking_Controller.php:125
+#: includes/REST_API/Hotlinking_Controller.php:129
+#: includes/REST_API/Hotlinking_Controller.php:297
+#: includes/REST_API/Link_Controller.php:148
+#: includes/REST_API/Link_Controller.php:343
+msgid "Invalid URL"
+msgstr "Неверный URL"
+
+#. translators: Separator between blog name and feed type in feed links.
+#: includes/Discovery.php:375
+msgctxt "feed link"
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/Story_Post_Type.php:169 assets/js/wp-dashboard.js:140
+msgid "All Stories"
+msgstr "Все истории"
+
+#: includes/Story_Post_Type.php:161
+msgid "Add New Story"
+msgstr "Добавить новую историю"
+
+#: includes/Story_Post_Type.php:160
+msgctxt "story"
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: includes/Story_Post_Type.php:159
+msgctxt "post type singular name"
+msgid "Story"
+msgstr "История"
+
+#: includes/Story_Post_Type.php:158
+msgctxt "post type general name"
+msgid "Stories"
+msgstr "Истории"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:154
+msgctxt "demo content"
+msgid "https://amp.dev/documentation/guides-and-tutorials/start/create_successful_stories/"
+msgstr "https://amp.dev/documentation/guides-and-tutorials/start/create_successful_stories/"
+
+#: includes/Media/Media_Source_Taxonomy.php:87
+msgid "Source"
+msgstr "Источник"
+
+#: includes/templates/admin/dashboard.php:37
+#: includes/templates/admin/edit-story.php:163
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: includes/Story_Post_Type.php:167 assets/js/web-stories-block.js:21
+msgid "No stories found."
+msgstr "Истории не найдены."
+
+#: includes/Story_Post_Type.php:168
+msgid "No stories found in Trash."
+msgstr "Истории не найдены в корзине."
+
+#: includes/Story_Post_Type.php:170
+msgid "Story Archives"
+msgstr "Архив историй"
+
+#: includes/Story_Post_Type.php:171
+msgid "Story Attributes"
+msgstr "Атрибуты истории"
+
+#. translators: %s: story title.
+#: includes/REST_API/Stories_Base_Controller.php:184
+msgid "%s (Copy)"
+msgstr "%s (Копия)"
+
+#: includes/Story_Post_Type.php:181
+msgid "Stories list"
+msgstr "Список историй"
+
+#: includes/Story_Post_Type.php:182 assets/js/wp-story-editor.js:249
+msgid "Story published."
+msgstr "История опубликована."
+
+#: includes/Story_Post_Type.php:185
+msgid "Story scheduled"
+msgstr "История запланирована"
+
+#: includes/Story_Post_Type.php:186
+msgid "Story updated."
+msgstr "История обновлена."
+
+#: includes/templates/admin/experiments.php:34
+msgid "Experimental Settings"
+msgstr "Экспериментальные настройки"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:157
+msgctxt "demo content"
+msgid "Best Practices"
+msgstr "Лучшие практики"
+
+#: includes/Experiments.php:227
+msgid "Editor"
+msgstr "Редактор"
+
+#: includes/Story_Post_Type.php:163
+msgid "New Story"
+msgstr "Новая история"
+
+#: includes/Story_Post_Type.php:164
+msgid "View Story"
+msgstr "Посмотреть историю"
+
+#: includes/REST_API/Publisher_Logos_Controller.php:425
+msgid "Publisher logo URL."
+msgstr "URL логотипа"
+
+#: includes/Settings.php:226
+msgid "Publisher Logos"
+msgstr "Логотипы"
+
+#: includes/Settings.php:215
+msgid "Default Publisher Logo"
+msgstr "Логотип по умолчанию"
+
+#: includes/Admin/Customizer.php:236 includes/Widgets/Stories.php:219
+#: assets/js/tinymce-button.js:1 assets/js/web-stories-block.js:13
+#: assets/js/web-stories-block.js:17 assets/js/wp-dashboard.js:122
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/Settings.php:147
+msgid "Google Analytics Tracking ID"
+msgstr "Идентификатор отслеживания Google Analytics"
+
+#: includes/Story_Post_Type.php:188
+msgctxt "add new on admin bar"
+msgid "Story"
+msgstr "История"
+
+#: includes/Story_Post_Type.php:187
+msgctxt "admin menu"
+msgid "Stories"
+msgstr "Истории"
+
+#: includes/Story_Post_Type.php:162
+msgid "Edit Story"
+msgstr "Редактировать историю"
+
+#: includes/Story_Post_Type.php:165
+msgid "View Stories"
+msgstr "Просмотреть истории"
+
+#: includes/Story_Post_Type.php:172
+msgid "Insert into story"
+msgstr "Вставить в историю"
+
+#: includes/REST_API/Stories_Base_Controller.php:217
+#: includes/Story_Post_Type.php:281
+msgid "Story data"
+msgstr "Данные истории"
+
+#: includes/Experiments.php:102 includes/Experiments.php:103
+#: includes/Settings.php:281
+msgid "Experiments"
+msgstr "Экспериментальная функция"
+
+#: includes/Admin/Dashboard.php:167 includes/Admin/Dashboard.php:168
+#: includes/Experiments.php:226 assets/js/wp-dashboard.js:9
+#: assets/js/wp-dashboard.js:154 assets/js/wp-story-editor.js:253
+#: assets/js/wp-story-editor.js:255
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: includes/REST_API/Hotlinking_Controller.php:73
+#: includes/REST_API/Link_Controller.php:76
+msgid "The URL to process."
+msgstr "URL для обработки."
+
+#: includes/Demo_Content.php:41
+msgid "Tips to make the most of Web Stories"
+msgstr "Советы по использованию Web Stories"
+
+#: includes/Story_Post_Type.php:178
+msgid "Filter stories list"
+msgstr "Фильтр списка историй"
+
+#: includes/Experiments.php:225
+msgid "General"
+msgstr "Основное"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:138
+msgctxt "demo content"
+msgid "Our shapes are quite basic for now but they act as masks. Drag an image or video into the mask."
+msgstr "Наши формы пока довольно простые, но они работают как маски. Перетащите изображение или видео в маску."
+
+#: includes/Experiments.php:272
+msgid "Enable search input on text and shapes tabs"
+msgstr "Включить поиск на вкладках текста и фигур"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:122
+msgctxt "demo content"
+msgid "Add your designs to the page, keeping crucial elements inside the safe zone to ensure they are visible across most devices."
+msgstr "Добавьте дизайн на страницу, разместите важные элементы в безопасной зоне, чтобы они были видны на большинстве устройств."
+
+#: includes/REST_API/Link_Controller.php:324
+msgid "Sorry, you are not allowed to process links."
+msgstr "Извините, вам не разрешено изменять ссылки."
+
+#: includes/REST_API/Stories_Controller.php:461
+msgid "The page number requested is larger than the number of pages available."
+msgstr "Запрошенный номер страницы больше имеющегося количества страниц."
+
+#: includes/REST_API/Stories_Controller.php:190
+msgid "Style presets used by all stories"
+msgstr "Предустановки стилей для всех историй"
+
+#: includes/REST_API/Embed_Controller.php:118
+#: includes/REST_API/Embed_Controller.php:161
+#: includes/REST_API/Embed_Controller.php:167
+msgid "URL is not a story"
+msgstr "Данный URL не является историей"
+
+#: includes/REST_API/Embed_Controller.php:75
+msgid "The URL for which to fetch embed data."
+msgstr "URL для получения встроенных данных."
+
+#: includes/Story_Post_Type.php:166 assets/js/web-stories-block.js:9
+#: assets/js/wp-dashboard.js:9
+msgid "Search Stories"
+msgstr "Поиск историй"
+
+#: includes/Admin/Dashboard.php:177 includes/Admin/Dashboard.php:178
+#: assets/js/wp-dashboard.js:7 assets/js/wp-dashboard.js:37
+#: assets/js/wp-dashboard.js:154
+msgid "Explore Templates"
+msgstr "Найти шаблоны"
+
+#: includes/Media/Video/Poster.php:134
+msgid "URL, width and height."
+msgstr "URL, ширина и высота."
+
+#: includes/REST_API/Autosaves_Controller.php:139
+msgid "The ID for the parent of the object."
+msgstr "ID родителя объекта."
+
+#. translators: 1: Blog name, 2: Separator (raquo), 3: Post type name.
+#: includes/Discovery.php:377
+msgid "%1$s %2$s %3$s Feed"
+msgstr "%1$s %2$s Лента %3$s"
+
+#: includes/compat/Web_Stories_Compatibility.php:155 web-stories.php:145
+#: web-stories.php:171
+msgid "Web Stories plugin could not be initialized."
+msgstr "Плагин Web Stories не может быть инициализирован."
+
+#. translators: %s: PHP version number
+#: includes/compat/Web_Stories_Compatibility.php:102
+msgid "Web Stories requires PHP %s or higher."
+msgstr "Для Web Stories требуется PHP %s или выше."
+
+#. translators: %s: build commands.
+#: includes/compat/Web_Stories_Compatibility.php:151
+msgid "You appear to be running an incomplete version of the plugin. Please run %s to finish installation."
+msgstr "Похоже, у вас запущена неполная версия плагина. Запустите %s, чтобы завершить установку."
+
+#: includes/Story_Post_Type.php:173
+msgid "Uploaded to this story"
+msgstr "Загружно в эту историю."
+
+#: includes/Story_Post_Type.php:184
+msgid "Story reverted to draft."
+msgstr "Историю возвращена в черновики."
+
+#: includes/Story_Post_Type.php:183
+msgid "Story published privately."
+msgstr "История опубликована как личная."
+
+#: includes/Experiments.php:282
+msgid "Elements tab"
+msgstr "Элемент вкладка"
+
+#: includes/Media/Media_Source_Taxonomy.php:112
+msgid "Media source. "
+msgstr "Источник медиа."
+
+#. Description of the plugin
+msgid "Visual storytelling for WordPress."
+msgstr "Визуальное повествование для WordPress."
+
+#: includes/Experiments.php:283
+msgid "Enable elements tab"
+msgstr "Включить вкладку элементов"
+
+#. translators: %s: WordPress version number
+#: includes/compat/Web_Stories_Compatibility.php:124
+msgid "Web Stories requires WordPress %s or higher."
+msgstr "Web Stories требуется WordPress версии %s или выше."
+
+#: includes/Story_Post_Type.php:180
+msgid "Stories list navigation"
+msgstr "Навигация по списку историй"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:90
+msgctxt "demo content"
+msgid "Tips to make the most of the Web Stories Editor"
+msgstr "Узнайте как эффективно использовать Web Stories"
+
+#: includes/templates/admin/dashboard.php:44
+#: includes/templates/admin/edit-story.php:174
+msgid "Web Stories for WordPress requires JavaScript. Please enable JavaScript in your browser settings."
+msgstr "Web Stories для WordPress требуется JavaScript. Пожалуйста, включите JavaScript в настройках вашего браузера."
+
+#: includes/Media/Video/Poster.php:121
+msgid "The ID of the featured media for the object."
+msgstr "ID избранного медиа для объекта."
+
+#: includes/Experiments.php:210
+msgid "The Web Stories editor includes experimental features that are useable while they're in development. Select the ones you'd like to enable. These features are likely to change, so avoid using them in production."
+msgstr "Редактор Web Stories включает в себя экспериментальные функции, которые можно использовать в процессе разработки сайта. Выберите те, которые вы хотите включить. Эти функции, скорее всего, изменятся, поэтому избегайте их использования на рабочем сайте."
+
+#: includes/Admin/Dashboard.php:463
+msgid "&larr; Return to Web Stories Dashboard"
+msgstr "&larr; Вернуться в консоль Web Stories"
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:114
+msgctxt "demo content"
+msgid "Once you've set a page bg, add a solid, linear or radial gradient overlay to increase text contrast or add visual styling."
+msgstr "После того, как вы установили фон страницы, добавьте наложение сплошного, линейного или радиального градиента, чтобы увеличить контраст текста или добавить визуальный стиль."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:130
+msgctxt "demo content"
+msgid "The system layer is docked at the top. Preview your story to ensure system layer icons are not blocking crucial elements."
+msgstr "Системный слой закреплен наверху. Просмотрите свою историю, чтобы убедиться, что значки системного слоя не блокируют важные элементы истории."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:146
+msgctxt "demo content"
+msgid "Embed stories into your blog post. Open the block menu & select the Web Stories block. Insert the story link to embed your story. That's it!"
+msgstr "Добавляйте истории в свой блог. В редакторе блоков откройте меню блоков и найдите Web Stories. Вставьте ссылку на историю в появившийся блок. Это все!"
+
+#: includes/REST_API/Stories_Base_Controller.php:95
+msgid "content and story_data should always be updated together."
+msgstr "Содержание и данные истории должны всегда обновляться вместе."
+
+#: includes/REST_API/Embed_Controller.php:416
+msgid "Sorry, you are not allowed to make proxied embed requests."
+msgstr "Извините, вам не разрешено делать проксированные встроенные запросы."
+
+#: includes/REST_API/Page_Template_Controller.php:71
+#: includes/REST_API/Stories_Controller.php:504
+#: includes/REST_API/Stories_Media_Controller.php:206
+msgid "Envelope request for preloading."
+msgstr "Запрос-обертка для предварительной загрузки."
+
+#: includes/Experiments.php:261
+msgid "Enable in-progress template actions"
+msgstr "Включить действия в процессе шаблона"
+
+#: includes/Experiments.php:293
+msgid "Incremental Search"
+msgstr "Инкрементный поиск"
+
+#: includes/Media/Video/Poster.php:99
+msgid "Attachment id of generated poster image."
+msgstr "ID прикрепленного файла сгенерированного изображения-постера."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:98
+msgctxt "demo content"
+msgid "Drag your image or video to the edge of the page to set as page background."
+msgstr "Перетащите изображение или видео к краю страницы, чтобы установить в качестве фона страницы."
+
+#. translators: demo content used in the "Get Started" story
+#: includes/Demo_Content.php:106
+msgctxt "demo content"
+msgid "Double-click the image/video to resize, re-center or crop. Note: media set as page background cannot be cropped."
+msgstr "Дважды щелкните изображение / видео, чтобы изменить размер, центрировать или кадрировать. Примечание: медиафайлы, установленные в качестве фона страницы, нельзя обрезать."

@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/*
+Theme Name: Gwara media
+Text Domain: gm
+Version: 1.0
+Requires at least: 5.4
+Requires PHP: 7.3
+Author: 404 Solution
+Author URI: https://404-solution.com/
+Theme URI: https://404-solution.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+.post-navigation, .pagination, .podcasts-pagination, .subcategories-pagination, .authors-pagination {
+    display: none;
+}
+
+.single-post article {
+    padding-top: 3rem;
+}
+
+.single-post article:first-of-type {
+    padding: 0;
+}
+
+.card, .card--type-small a {
+    width: 100%;
+    height: 100%;
+}
+
+.text-content ul li>div:first-child:before {
+    content: "-";
+    padding-right: 10px;
+}
+
+.text-content ul li:before {
+    display: none;
+}
+
+.ads-wrapper {
+    padding: 1em 0;
+}
+
+.ad {
+    background-size: cover;
+    background-position: center;
+}
+
+.tilda-publishing.single-format-status footer {
+    margin-top: 0;
+}
+
+.tilda-publishing.single-format-status .page-content {
+    padding: 0;
+}
+.iframe-inner iframe {
+    width: 100%;
+    height: 160px;
+}
+
+@media (min-width: 768px) {
+    a.logo img {
+        max-height: 23px;
+    }
+}
+
+.sp-form-outer .sp-form {
+    width: 100%;
+    padding: 0;
+}
+
+.sp-form-outer .sp-form .sp-field {
+    padding: 0;
+}
+
+.breadcrumb {
+    flex-wrap: wrap;
+}
+
+.copyright {
+    width: 100%;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card .card-text p {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+.special-project--text img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article section iframe {
+    margin: 1em auto !important;
+}
+
+.podcast-card--text {
+    color: #000;
+}
+
+.form button[type=submit] {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.page-content .sp-form button, .page-content .sp-form input, .page-content .sp-form input[type=text], .page-content .sp-form input[type=email], .page-content .sp-form input[type=tel], .page-content .sp-form input[type=number], .page-content .sp-form optgroup, .page-content .sp-form select, .page-content .sp-form textarea {
+    font-weight: bold;
+}
+
+.form .icon img {
+    margin: 0;
+}
+
+.share .social-list li {
+    max-width: 30%;
+}
+
+@media (max-width: 768px) {
+    .share .social-list li {
+        max-width: 40%;
+    }
+}
+
+.marketing img {
+    max-width: 100%;
+}
+
+.article-body--content a {
+    text-decoration: underline;
+}
+
+a#patreon {
+    position: fixed;
+    right: -47px;
+    top: 30%;
+    transform: rotate(-90deg);
+    z-index: 9999;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 110px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    background: #d8dbd8;
+    transition: .2s;
+}
+
+a#patreon:hover {
+    background: #e64413;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.podcast-card--text h4 {
+    white-space: normal;
+    -ms-word-break: normal;
+    word-break: normal;
+}
+
+.single .article-body .article-body--content ol, .single .article-body .article-body--content ul {
+    list-style: decimal;
+    list-style-position: outside;
+    padding-left: 1em;
+    font-size: 18px;
+}
+.single .article-body .article-body--content ol li, .single .article-body .article-body--content ul li {
+    padding: 5px 0;
+}
+
+
+.single .article-body .article-body--content ul {
+    list-style: disc;
+}
+
+.single .article-body .article-body--content table td {
+    border: 1px solid;
+    padding: 5px;
+    font-size: 18px;
+    vertical-align: text-top;
+}
+
+.single .article-body .article-body--content table {
+    border-spacing: 0;
+    border-collapse: collapse;
+
+}
+
+@media (max-width: 1440px) {
+    .sticky-el .read-more {
+        padding-bottom: 80px;
+    }
+}
+
+
+.single-post h2{
+    font-size: 150% !important;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+.single-post h3{
+    font-size: 130% !important;;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+}
+.single-post h4{
+    font-size: 115% !important;;
+}
+.single-post h5{
+    font-size: 15% !important;;
+}
+
+.stories-container .card .mobile-card-footer:before {
+    display: none !important;
+}
+
+.addtoany_list {
+    display: flex !important;
+}
+
+.addtoany_list a, .widget .addtoany_list a {
+    width: 50px;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+.addtoany_list .icon img, .addtoany_list .icon svg {
+    height: 30px;
+}
+
+div#test-message a {
+    text-decoration: underline;
+}
