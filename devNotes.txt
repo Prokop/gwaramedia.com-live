@@ -1,0 +1,4 @@
+Deploys are manually
+
+1.треба налаштувати https://github.com/welaika/wordmove
+2. треба запевнитись що тест сервер не індексується в гуглі
