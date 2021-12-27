@@ -13,4 +13,4 @@ jobs:
       with:
         server: kackac.ftp.tools
         username: kackac_bitbucket
-        password: ${{secrets.FTPTESTUSERPASSWORD}}
+        password: $FTPTESTUSERPASSWORD
