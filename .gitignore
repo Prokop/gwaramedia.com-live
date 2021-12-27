@@ -23,5 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #errors
-/wp-content/uploads/2021
 /wp-content/plugins/official-facebook-pixel/vendor/techcrunch/wp-async-task/
