@@ -1,17 +1,16 @@
 on: push
-name: 🚀 Deploy website on push
+name: Publish Website
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.2.0
+    - uses: actions/checkout@v2.1.0
       with:
-        username: kackac_bitbucket
-        server: kackac.ftp.tools
-        ssh_private_key: SSH_PRIVATE
-        local_path: ./*
-        remote_path: /home/kackac/gwaramedia.com/test/
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: kackac.ftp.tools
+        ftp-username: kackac_bitbucket
+        ftp-password: 6ED5j9f4TjrL
