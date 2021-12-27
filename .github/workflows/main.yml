@@ -13,6 +13,5 @@ jobs:
         username: kackac_bitbucket
         server: kackac.ftp.tools
         ssh_private_key: SSH_PRIVATE
-        password: $FTPTESTUSERPASSWORD
         local_path: ./*
         remote_path: /home/kackac/gwaramedia.com/test/
