@@ -25,5 +25,4 @@ yarn-error.log*
 #errors
 /wp-content/plugins/official-facebook-pixel/vendor/techcrunch/wp-async-task/
 /wp-content
-/wp-content
-/wp-includes
+#/wp-includes
