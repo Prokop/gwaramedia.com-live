@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: kackac.ftp.tools
+        server: ftp://kackac_bitbucket@kackac.ftp.tools:21/
         username: kackac_bitbucket
         password: $FTPTESTUSERPASSWORD
