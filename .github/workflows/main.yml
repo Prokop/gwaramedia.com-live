@@ -14,3 +14,4 @@ jobs:
         ftp-server: kackac.ftp.tools
         ftp-username: kackac_bitbucket
         ftp-password: 6ED5j9f4TjrL
+        options: --changed-only --auto-init
